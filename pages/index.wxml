@@ -1,0 +1,51 @@
+<view style='width:0px;height:0px;overflow:hidden;'>
+  <canvas class='image-canvas' canvas-id="shareImg"></canvas>
+</view>
+
+<!--official-account></official-account-->
+
+<view class='title'>
+  <view style='height:20rpx;'></view>
+  <view>推荐上传正方形图片以获得最优效果</view>
+  
+</view>
+
+<view class='image-box'>
+  <image class='image' src='{{image}}'></image>
+</view>
+<view style='position:absolute;top: 59%;width:100%;text-align: center;'><text style="font-size: 24rpx;color: rgb(90, 90, 90);" space="emsp">滑动解锁更多头像框↔</text></view>
+<view id="kuang" class='image-kuang' bindtap='choosePic'>
+  <image class='image' src='{{image1}}'></image>
+</view>
+
+<scroll-view scroll-x class='top' scroll-with-animation='true' bindscroll='scroll'>
+  <view id='0' class='pic-white'></view>
+  <view id='1' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/1.png'></image></view>
+  <view id='2' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/2.png'></image></view>
+  <view id='3' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/3.png'></image></view>
+  <view id='4' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/4.png'></image></view>
+  <view id='5' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/5.png'></image></view>
+  <view id='6' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/6.png'></image></view>
+  <view id='7' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/7.png'></image></view>
+  <view id='8' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/8.png'></image></view>
+  <view id='9' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/9.png'></image></view>
+  <view id='10' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/10.png'></image></view>
+  <view id='11' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/11.png'></image></view>
+  <view id='12' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/12.png'></image></view>
+  <view id='13' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/13.png'></image></view>
+  <view id='14' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/14.png'></image></view>
+  <view id='15' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/15.png'></image></view>
+  <view id='16' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/16.png'></image></view>
+  <view id='17' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/17.png'></image></view>
+  <view id='18' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/18.png'></image></view>
+  <view id='19' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/19.png'></image></view>
+  <view id='20' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/20.png'></image></view>
+  <view id='21' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/21.png'></image></view>
+  <view id='22' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/22.png'></image></view>
+  <view id='23' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/23.png'></image></view>
+  <view class='pic-white'></view>
+</scroll-view>
+
+<button type='primary' wx:if="{{image!='../img/add.png'}}" bindtap='savePic' style='position:absolute;top:85%;left:30%;width:40%;'>生成图片</button>
+<view wx:if="{{image!='../img/add.png'}}" class='text'>点击生成图片即可保存到相册~</view>
+<view style='position:absolute;top: 97%;width:100%;text-align: center;'><text style="font-size: 25rpx;color: rgb(90, 90, 90);" space="emsp">地址:信息馆507 联系方式:syh_turbo@163.com</text></view>

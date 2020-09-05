@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index"
+  ],
+  "window": {
+	 
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c6232d",
+    "navigationBarTitleText": "燕大百年校庆定制头像",
+    "navigationBarTextStyle": "white"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx6e591088abf4594d"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

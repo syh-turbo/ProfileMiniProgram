@@ -1,0 +1,76 @@
+page{
+	background: #e5e5e5;
+}
+.title{
+  width: 750rpx;
+  height: 250rpx;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+  font-size: 28rpx;
+  color: rgb(90, 90, 90);
+  flex-direction: column;/*纵向排布*/
+}
+.top{
+  height: 200rpx;
+  white-space: nowrap;
+  display: flex;
+  position:absolute;    /*启用绝对定位*/
+  top:65%;
+}
+.pic-box{
+  width: 150rpx;
+  height:150rpx;
+  display:inline-block;
+  padding-left: 0.3125rem;
+}
+.pic-white{
+  display:inline-block;
+  width:125rpx;
+}
+.pic{
+  height: 100%;
+  width: 100%;
+}
+
+.image-box{
+  position:absolute;    /*启用绝对定位*/
+  top:15%;
+  width: 750rpx;
+  height: 500rpx;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.image-kuang{
+  position:absolute;    /*启用绝对定位*/
+  top:15%;
+  width: 750rpx;
+  height: 500rpx;
+  display: flex;
+  z-index: 100;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+.image{
+  width: 500rpx;
+  height: 500rpx;
+}
+.image-canvas{
+  position:absolute;    /*启用绝对定位*/
+  top:100%;
+  width: 1000px;
+  height: 1000px;
+}
+.text{
+  position:absolute;
+  top:82%;
+  left:25%;
+  width:50%;
+  color: rgb(90, 90, 90);
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
