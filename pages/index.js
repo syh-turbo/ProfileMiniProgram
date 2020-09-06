@@ -17,7 +17,7 @@ Page({
   /**
    * 选择图片
    */
-  choosePic: function(e){
+/*  choosePic: function(e){
     var that = this;
     console.log("--选择图片--");
     wx.chooseImage({
@@ -31,7 +31,7 @@ Page({
         })
       },
     })
-  },
+  }, */
   
   chooseKuang: function(e){
     var that = e.currentTarget.id;
@@ -43,7 +43,21 @@ Page({
 	})   
   },
 
-
+    eportrait: function () {
+        wx.chooseImage({
+            count: 1,
+            sizeType: ['compressed'],
+            success: function (res) {
+                wx.navigateTo({ url: '/pages/imgcut?imgpage=' + res.tempFilePaths[0] });
+            }
+        });
+    },
+	eimgcutcb: function (image) {
+	  console.log(image)
+	    this.setData({
+	        image: image
+	    });
+	},
   /**
    * 保存图片
    */

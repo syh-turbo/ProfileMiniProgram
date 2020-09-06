@@ -1,0 +1,22 @@
+<view class="cut-box">
+    <view  style="position: absolute; left: 50%; top: 50%; width: {{wd}}px; height: {{ht}}px; margin-left: -{{wd/2}}px; margin-top: -{{ht/2}}px;">
+        <view bindtouchstart="etouchstart" bindtouchmove="etouchmove" bindtouchend="etouchend" style="transform-origin: 0px 0px 0px; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: {{time||0}}ms; transform: translate({{posX}}px, {{posY}}px) scale({{zoomStart}}) translateZ(0px); touch-action: none; -webkit-user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: {{oldwd}}px; height: {{oldht}}px;">
+            <view style="width: {{oldwd}}px; height: {{oldht}}px; transform: translateZ(0px) translate(0px, 0px) rotate({{angles||0}}deg); transform-origin: {{mpoint.pageX}}px {{mpoint.pageY}}px 0px; transition: -webkit-transform {{mtime||0}}ms;">
+                <image style="-webkit-user-select: none; pointer-events: none;height:100%;width:100%;" src="{{oldimg}}"></image>
+            </view>  
+        </view>
+    </view>
+    <view style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; pointer-events: none;">
+        <view style="position: absolute; left: 0px; right: 50%; top: 50%; bottom: 50%; width: auto; height: {{ht}}px; margin-right: {{wd/2}}px; margin-top: -{{ht/2}}px; margin-bottom: -{{ht/2}}px; background-color: rgba(0, 0, 0, 0.498039);"></view>
+        <view style="position: absolute; left: 50%; right: 0px; top: 50%; bottom: 50%; margin-left: {{wd/2}}px; margin-top: -{{ht/2}}px; margin-bottom: -{{ht/2}}px; background-color: rgba(0, 0, 0, 0.498039);"></view>
+        <view style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 50%; margin-bottom: {{ht/2}}px; background-color: rgba(0, 0, 0, 0.498039);"></view>
+        <view style="position: absolute; left: 0px; right: 0px; top: 50%; bottom: 0px; margin-top: {{ht/2}}px; background-color: rgba(0, 0, 0, 0.498039);"></view>
+        <view style="border: 1px dashed rgb(221, 221, 221); position: absolute; left: 50%; top: 50%; width: {{wd}}px; height: {{ht}}px; margin-left: -{{wd/2+1}}px; margin-top: -{{ht/2+1}}px;">
+            <canvas style="width: {{wd}}px; height: {{ht}}px;" canvas-id="imgcanvas"></canvas>
+        </view>
+    </view>
+</view>
+<view class="foot-bt" style="left:{{tleft||0}}">
+    <button style='width: 120px;' bindtap="eimg">重新选择</button>
+    <button bindtap="eok" style="float:right;">完成</button>
+</view>

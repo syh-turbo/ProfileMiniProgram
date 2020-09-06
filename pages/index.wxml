@@ -6,15 +6,14 @@
 
 <view class='title'>
   <view style='height:20rpx;'></view>
-  <view>推荐上传正方形图片以获得最优效果</view>
-  
+  <view>点击加号上传头像呦~</view>  
 </view>
 
 <view class='image-box'>
   <image class='image' src='{{image}}'></image>
 </view>
 <view style='position:absolute;top: 59%;width:100%;text-align: center;'><text style="font-size: 24rpx;color: rgb(90, 90, 90);" space="emsp">滑动解锁更多头像框↔</text></view>
-<view id="kuang" class='image-kuang' bindtap='choosePic'>
+<view id="kuang" class='image-kuang' bindtap='eportrait'>
   <image class='image' src='{{image1}}'></image>
 </view>
 
@@ -43,6 +42,9 @@
   <view id='21' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/21.png'></image></view>
   <view id='22' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/22.png'></image></view>
   <view id='23' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/23.png'></image></view>
+  <view id='24' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/24.png'></image></view>
+  <view id='25' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/25.png'></image></view>
+  <view id='26' class='pic-box' bindtap='chooseKuang'><image class='pic' src='../img/head/26.png'></image></view>
   <view class='pic-white'></view>
 </scroll-view>
 

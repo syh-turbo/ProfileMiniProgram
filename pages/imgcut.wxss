@@ -1,0 +1,29 @@
+page{background: #ffffff;height:100%;}
+.cut-box {
+    -webkit-user-select: none;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+}
+.foot-bt {
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 15px;
+    text-align: center;
+}
+    .foot-bt button {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        margin: 0 10px;
+        background:none;
+        color:white;
+        border:1px solid #ffffff;
+        float: left;
+    }
