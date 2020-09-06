@@ -8,11 +8,17 @@
 #### 使用说明
 
 1.  小程序码
-![image](https://github.com/syh_turbo/ProfileMiniProgram/tree/master/Image/微信图片_20200906135703.jpg)
-2.  xxxx
-3.  xxxx
+![image](https://gitee.com/syh_turbo/ProfileMiniProgram/raw/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200906135703.jpg)
+2.  主页，上传图片
+![image](https://gitee.com/syh_turbo/ProfileMiniProgram/raw/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200906135550.jpg)
+3.  图片裁剪
+![image](https://gitee.com/syh_turbo/ProfileMiniProgram/raw/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200906135545.jpg)
+4.  选头像框
+![image](https://gitee.com/syh_turbo/ProfileMiniProgram/raw/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200906135538.jpg)
 
 #### 参与贡献
 
-1.  基于西大头像框 [https://gitee.com/cnlhb/swuHeadPortrait](https://gitee.com/cnlhb/swuHeadPortrait)修改并添加一些小功能
+
+1.  燕山大学信息科学与工程学院--信息馆507--秃头小队
+2.  基于西大头像框 [https://gitee.com/cnlhb/swuHeadPortrait](https://gitee.com/cnlhb/swuHeadPortrait)修改并添加一些小功能，非常感谢
 
