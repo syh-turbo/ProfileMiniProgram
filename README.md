@@ -8,6 +8,7 @@
 #### 使用说明
 
 1.  小程序码
+
 ![image](https://gitee.com/syh_turbo/ProfileMiniProgram/raw/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200906135703.jpg)
 2.  主页，上传图片
 ![image](https://gitee.com/syh_turbo/ProfileMiniProgram/raw/master/Image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200906135550.jpg)
